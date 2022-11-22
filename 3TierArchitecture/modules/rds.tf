@@ -13,7 +13,7 @@ resource "aws_db_instance" "wpdb" {
   allocated_storage      = 20
   engine                 = "mysql"
   name                   = "mydb"
-  password               = "Srinath@123"
+  password               = "Srinath123"
   username               = "masterdb"
   engine_version         = "5.7"
   skip_final_snapshot    = true
